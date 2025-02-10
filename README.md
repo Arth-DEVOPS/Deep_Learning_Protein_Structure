@@ -1,4 +1,4 @@
-The pipeline described in the notebook integrates three key tools—RFDiffusion, ProteinMPNN, and AlphaFold—to design proteins with specific objectives. Here's how it works:
+The pipeline described in the notebook has been reimplemented from DL4Proteins demonstration, it integrates three key tools—RFDiffusion, ProteinMPNN, and AlphaFold—to design proteins with specific objectives. Here's how it works:
 1.	RFDiffusion:
 •	This is a diffusion-based generative model that creates protein backbones by denoising 3D Gaussian noise. It generates the structural framework (or backbone) of proteins without amino acid sequences.
 •	It supports tasks like:
